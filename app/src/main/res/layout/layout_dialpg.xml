@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="name"
+        android:id="@+id/name_dialog_id"/>
+
+    <EditText
+        android:id="@+id/income_dialog_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="income"
+        android:layout_below="@+id/name_dialog_id"/>
+
+</RelativeLayout>
