@@ -66,6 +66,13 @@ public class UserDashboard extends AppCompatActivity implements View.OnClickList
                 break;
             case R.id.img_analysis_id:
                 analysis();
+                break;
+            case R.id.txt_analysis_id:
+                analysis();
+                break;
+            case R.id.txt_expense_id:
+                OPENDIALOG();
+                break;
         }
     }
 
