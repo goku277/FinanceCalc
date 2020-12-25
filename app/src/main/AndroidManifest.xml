@@ -11,8 +11,8 @@
         android:theme="@style/Theme.FinancialCalculator">
         <activity android:name=".IncomeVsExpense"></activity>
         <activity android:name=".ExpenseDetails" />
-        <activity android:name=".MainActivity" />
-        <activity android:name=".UserDashboard">
+        <activity android:name=".UserDashboard" />
+        <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
